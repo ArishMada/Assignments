@@ -1,0 +1,29 @@
+NSW government to create quantum technology centre for its transport network
+Minister for Transport and Roads Rob Stokes said using quantum technology could allow New South Wales' transport network to become 'self-healing'.
+The NSW government has announced it will establish a new quantum technology centre focused on improving the state's transport network.
+
+The centre is part of the state government's new plan for quantum technology to be used to run its transport.
+
+Minister for Transport and Roads Rob Stokes said using quantum technology would boost the computing power needed to reduce delays, improve reliability, and optimise journeys.
+
+In announcing the new plan, Stokes envisions the technology will help the state's transport capabilities become a "self-healing network" that interacts with autonomous vehicles, artificial intelligence, and smart sensors.
+
+"It may also allow Transport for NSW to give customers personalised real-time information to make their journeys faster, safer, and more reliable," he said.
+
+The state's transport department said over the weekend that some of its light rail services could be decommissioned for 18 months due to cracks appearing on its tram fleet.  
+
+The centre will be based in Sydney's Tech Central. It will be led by a quantum director and quantum technology fellow, who are both yet to be appointed. It will also draw on an expert advisory panel consisting of people from the government, industry, and university sectors, including University of New South Wales (UNSW) professor Michelle Simmons.
+
+Another recent announcement made by the NSW government is AU$500,000 has been allocated towards developing "integrated undersea acoustic communications and sensing technologies" to enable long-distance, reliable covert communications.
+
+The project, to be developed by the NSW Defence Innovation Network Strategic Investment Initiative, will see a prototype based on orthogonal time-frequency space signalling be created.
+
+The project is part of efforts to deliver on the objectives proposed in the AUKUS security pact, Minister for Industry and Trade Stuart Ayres said.
+
+"This critical covert undersea sensing and communications project will lead to greater opportunities through increased collaboration between industry and academia to commercialise defence technologies and create jobs for the people of NSW," he said.
+
+The project will be a collaboration between Macquarie University, University of Newcastle, University of Sydney, University of Technology Sydney, University of Wollongong, UNSW, and Western Sydney University.
+
+Last month, the NSW government said it was also looking for an organisation to host a new semiconductor hub that will be dedicated to propping up local companies focused on semiconductor design and IP.
+
+Like the newly announced quantum technology centre for transport, the semiconductor hub will be based at Tech Central. Other organisations that have also signed on to be tenants of Sydney's Tech Central, which is expected to be complete by 2025, are Atlassian, NEC, NTT, and the country's National Space Industry Hub. 
