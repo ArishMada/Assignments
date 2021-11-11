@@ -19,7 +19,7 @@ def sentences_splitter():
             formatted_text += (i + "\n")
         elif '.' in i[-1] and i not in title and i.count('.') == 1 and next_elem[0].isupper():
             formatted_text += (i + "\n")
-        elif etc in i:
+        elif etc in i and next_elem[0].isupper():
             formatted_text += (i + "\n")
         else:
             formatted_text += (i + " ")
