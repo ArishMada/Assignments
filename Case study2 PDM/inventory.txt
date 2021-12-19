@@ -1,0 +1,6 @@
+Apple 75
+Hp 50
+Dell 50
+Lenovo 20
+Acer 20
+Asus 75

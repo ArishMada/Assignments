@@ -1,6 +1,9 @@
-brands = ["Apple", "Hp", "Dell", "Lenovo", "Acer", "Asus"]
-inventory = {'Apple': 2}
-prices = {'Apple': 12}
+inventory = {}
+with open("inventory.txt") as f:
+    for line in f:
+        (key, val) = line.split()
+        inventory[key] = int(val)
+prices = {'Apple': 1200, 'Hp': 750, 'Dell': 980, 'Lenovo': 875, 'Acer': 1100, 'Asus': 700}
 
 cost_per_item = []
 shopping_list = []
@@ -12,7 +15,14 @@ while num_of_items_desired < 1:
 else:
     for i in range(num_of_items_desired):
         brand = input("Enter the brand: ").title()
-        if brand in brands:
+        while brand not in inventory.keys():
+            print(f'We do not have {brand} in our inventory')
+            more = input('Do you want to buy something else?(yes/no): ')
+            if more == "yes":
+                brand = input("Enter the brand: ").title()
+            else:
+                break
+        else:
             shopping_list.append(brand)
             quantity = eval(
                 input(f'Enter the quantity of laptop {brand} you would want to buy: '))
@@ -28,23 +38,20 @@ else:
                               f'to buy: '))
                 else:
                     inventory[brand] -= quantity
+                    file = open("inventory.txt", "w")
+                    for key, value in inventory.items():
+                        file.write('%s %s\n' % (key, value))
+                    file.close()
+
                     quantity_of_item.append(quantity)
                     cost = prices[brand] * quantity
                     cost_per_item.append(cost)
 
-        else:
-            print(f'We do not have {brand} in our inventory')
-            more = input('Do you want to buy something else?(yes/no): ')
-            if more == "yes":
-                brand = input("Enter the brand: ").title()
-            else:
-                break
 print('Here is the summary of your shopping:')
 total = 0
 for i in range(len(shopping_list)):
     total += cost_per_item[i]
     print(f'item: {shopping_list[i]} \nquantity: {quantity_of_item[i]} \ncost: '
-          f'{cost_per_item[i]} \n------------')
+          f'{cost_per_item[i]}$ \n------------')
 print(f'Total cost of your shopping: {total}$')
 
-print(inventory)
