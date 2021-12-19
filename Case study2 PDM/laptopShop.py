@@ -10,8 +10,11 @@ shopping_list = []
 quantity_of_item = []
 num_of_items_desired = eval(input('Enter the number of items you wish to buy: '))
 while num_of_items_desired < 1:
-    print("Number of items must be at least 1.")
-    num_of_items = eval(input('Re-enter the number of items you wish to buy: '))
+    if num_of_items_desired == 0:
+        break
+    else:
+        print("Number of items must be at least 1.")
+        num_of_items = eval(input('Re-enter the number of items you wish to buy: '))
 else:
     for i in range(num_of_items_desired):
         brand = input("Enter the brand: ").title()
@@ -26,8 +29,8 @@ else:
             shopping_list.append(brand)
             quantity = eval(
                 input(f'Enter the quantity of laptop {brand} you would want to buy: '))
-            while quantity < 1:
-                print("quantity must be at least 1")
+            while quantity < 0:
+                print("quantity must be at least 0")
                 quantity = eval(input(f'Enter the quantity of laptop {brand} you would want '
                                       f'to buy: '))
             else:
