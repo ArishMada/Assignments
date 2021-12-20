@@ -21,7 +21,7 @@ else:
         brand = input("Enter the brand: ").title()
         while brand not in inventory.keys():
             print(f'We do not have {brand} in our inventory')
-            more = input('Do you want to buy something else?(yes/no): ')
+            more = input('Do you want another brand?(yes/no): ')
             if more == "yes":
                 brand = input("Enter the brand: ").title()
             elif more == "no" and i == 1:
