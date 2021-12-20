@@ -12,7 +12,7 @@ num_of_items_desired = eval(input('Enter the number of items you wish to buy: ')
 while num_of_items_desired < 1:
     if num_of_items_desired == 0:
         print('Thank you, see you next time')
-        break
+        exit()
     else:
         print("Number of items must be at least 1.")
         num_of_items_desired = eval(input('Re-enter the number of items you wish to buy: '))
